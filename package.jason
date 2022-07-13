@@ -1,22 +1,20 @@
 {
-  "name": "myapp",
-  "version": "0.0.1",
-  "private": true,
+  "name": "node-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "npm install inherits && mocha"
+    "start": "node index.js"
   },
-  "engines": {
-    "node": "^4.6.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnpapa/node-hello.git"
   },
-  "dependencies": {
-    "express": "^4.14.0",
-    "http-errors": "^1.7.0",
-    "mysql": "^2.10.2"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnpapa/node-hello/issues"
   },
-  "devDependencies": {
-    "inherits": "^2.0.3",
-    "mocha": "^5.2.0",
-    "ms": "^2.1.1"
-  }
+  "homepage": "https://github.com/johnpapa/node-hello#readme"
 }
